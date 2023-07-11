@@ -73,7 +73,7 @@ public class AptecaCatalogTest extends WebTest {
     public void ShouldCheckSearchField(){
         SelenideElement searchfield = searchField.search.setValue("Глицин форте").pressEnter();
 
-        step("В поисковой выдаче отображается по 5 товаров на странице", () -> {
+        step("В поисковой выдаче отображается по 5 товаров на странице, тест не находит 4 и 5 элементы", () -> {
             WebDriverRunner.url().equals("https://aptekaeconom.com/catalog/?q=Глицин форте&s=Найти");
             $$(".price_matrix_wrapper").get(0).shouldBe(exist);
             $$(".price_matrix_wrapper").get(1).shouldBe(exist);
