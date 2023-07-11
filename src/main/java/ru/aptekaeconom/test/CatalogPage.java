@@ -15,8 +15,6 @@ public class CatalogPage {
 
 
 
-//    public ElementsCollection getCatalogGoods () {
-//        return good.$$("iblock-vote small");
-//    }
+ }
 }
 
