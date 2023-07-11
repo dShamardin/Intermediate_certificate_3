@@ -4,14 +4,11 @@ import com.codeborne.selenide.*;
 import com.codeborne.selenide.impl.SelenideElementDescriber;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
-import ru.aptekaeconom.test.CatalogPage;
-import ru.aptekaeconom.test.MainPage;
+import ru.aptekaeconom.test.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Cookie;
-import ru.aptekaeconom.test.ConfirmRegionPopup;
-import ru.aptekaeconom.test.SearchField;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
@@ -25,6 +22,8 @@ public class AptecaCatalogTest extends WebTest {
     public CatalogPage catalogPage = new CatalogPage();
 
     public SearchField searchField = new SearchField();
+
+    public Busket busket = new Busket();
 
 
     @BeforeEach
@@ -118,9 +117,14 @@ public class AptecaCatalogTest extends WebTest {
             $("#header > div:nth-of-type(2) > div:first-of-type > div > div > div > div:nth-of-type(4) > " +
                     "div:nth-of-type(2) > a").click();
             WebDriverRunner.url().equals("https://aptekaeconom.com/basket/");
+            SelenideElement busketpage = busket.Busket.shouldBe(visible);
+
         });
 
-
+        step("Отложенный товар не учитывается в итоговой сумме заказа", () ->{
+            $("#basket-root > div:first-of-type > div > div > div > div > div:nth-of-type(2)" +
+                    " > div > div").shouldHave(visible);
+        });
 
     }
 }

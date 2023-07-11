@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4b56bd7-fe4f-4fe2-9f2b-b7d717235a4c" name="Changes" comment="add project">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="d4b56bd7-fe4f-4fe2-9f2b-b7d717235a4c" name="Changes" comment="add new commit">
       <change afterPath="$PROJECT_DIR$/allure-results/018af3d7-22d4-448e-87a5-ef2aa37d08dc-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/03aea6b6-9bfa-483c-8f2c-adab70b91a86-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/04480222-abfd-44e4-8acc-0d815b4b6cea-container.json" afterDir="false" />
@@ -253,8 +252,7 @@
       <change afterPath="$PROJECT_DIR$/allure-results/fe188d32-75da-4a60-83f8-edd71eacdf6b-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/feebc26e-a550-41ba-af0d-56430b7ca244-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aptekaeconom/test/CatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aptekaeconom/test/CatalogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aptekaeconom/test/Busket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aptekaeconom/test/Busket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/aptecaeconom/test/AptecaCatalogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/aptecaeconom/test/AptecaCatalogTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -419,12 +417,20 @@
       <option name="project" value="LOCAL" />
       <updated>1688823389890</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add new commit">
+      <created>1689017608726</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689017608726</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add project" />
+    <MESSAGE value="add new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
