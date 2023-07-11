@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4b56bd7-fe4f-4fe2-9f2b-b7d717235a4c" name="Changes" comment="readme">
+    <list default="true" id="d4b56bd7-fe4f-4fe2-9f2b-b7d717235a4c" name="Changes" comment="New readme.md">
       <change afterPath="$PROJECT_DIR$/allure-results/00336ab0-5ded-4bd2-9509-932da1fef78f-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/018af3d7-22d4-448e-87a5-ef2aa37d08dc-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/03aea6b6-9bfa-483c-8f2c-adab70b91a86-result.json" afterDir="false" />
@@ -411,8 +411,6 @@
       <change afterPath="$PROJECT_DIR$/allure-results/feebc26e-a550-41ba-af0d-56430b7ca244-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/ff10711c-3548-428e-af1e-eecabaf090f2-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/ff46eada-cc19-4db3-b60f-4e31f94cfc30-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aptekaeconom/test/CatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aptekaeconom/test/CatalogPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -663,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689096384246</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="New readme.md">
+      <created>1689097316619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689097316619</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -681,7 +686,8 @@
     <MESSAGE value="add project" />
     <MESSAGE value="add new commit" />
     <MESSAGE value="readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+    <MESSAGE value="New readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="New readme.md" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
